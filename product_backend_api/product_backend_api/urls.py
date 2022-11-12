@@ -1,4 +1,4 @@
-"""product_backend_api_proj URL Configuration
+"""product_backend_api URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
@@ -14,8 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path #, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('product_backend_api/product/', include('product.urls')),
+    path('127.0.0.1:8000/api/product/'),
+    path('127.0.0.1:8000/api/product/<int:pk>/')
 ]
