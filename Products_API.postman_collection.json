@@ -21,7 +21,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"iPhone 14 Pro\",\r\n    \"description\": \"Apple iPhone 14 Pro 256GB Deep Purple\",\r\n    \"price\": 1099.00,\r\n    \"inventory_quantity\": 1\r\n}",
+					"raw": "{\r\n    \"title\": \"Generic Phone\",\r\n    \"description\": \"This is a phone\",\r\n    \"price\": 2.00,\r\n    \"inventory_quantity\": 404\r\n    \"image\": \"https://previews.123rf.com/images/fokaspokas/fokaspokas1805/fokaspokas180500401/102128105-simple-mobile-phone-icon-linear-symbol-thin-outline.jpg\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -29,7 +29,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/",
+					"raw": "http://127.0.0.1:8000/api/product/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -40,7 +40,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"products",
+						"product",
 						""
 					]
 				}
