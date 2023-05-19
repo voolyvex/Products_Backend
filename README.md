@@ -1,2 +1,2 @@
 # Products_Backend
-Built a Product Backend Web API in Django REST Framework
+This repository contains the backend code for a custom Django REST Framework web API designed for an eCommerce site.
